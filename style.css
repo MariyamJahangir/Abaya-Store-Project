@@ -7,4 +7,26 @@ html{
     font-size: 14px;
 }
 
+#cartbox{
+    width: 20%;
+    height: 120px;
+    position: absolute;
+    left: 70%;
+    top: 50px;
+    z-index: 1;
+    display: none;
+    background-color: aliceblue;
+    padding: 20px;
+    
+}
+
+#botn{
+    float: left;
+    margin-right: 30px;
+    
+}
+
+#mainhead{
+    color: red;
+}
 

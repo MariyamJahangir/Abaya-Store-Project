@@ -45,7 +45,7 @@
               </div>  
             </div>
             <div class="col-2 col-sm-2 col-md-2 text-center">
-              <i class="bi bi-bag-heart-fill h3 px-2"></i>
+              <i  id="bag" class="bi bi-bag-heart-fill h3 px-2 "></i>
               <i class="bi bi-search h5"></i>
             </div>
           </div>
@@ -58,10 +58,14 @@
 
 <!-- carousel -->
 
-
-
-
 <section>
+  <div class="containerfluid">
+    <div id="cartbox">
+      <p>NO PRODUCTS IN THE CART</p>
+      <button type="button" id="botn" class="btn btn-danger rounded-0">CART <i class="bi bi-cart"></i></button>
+      <P>Total: Rs 0.00</P>
+    </div>
+  
     <div id="carouselExampleDark " class="carousel carousel-dark slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval="10000">
@@ -80,14 +84,15 @@
         </div>
       </div>
     </div>
-  </section> 
+  </div>
+</section> 
 
   <!-- Collections -->
 <section>
   <div class="container-fluid mb-5">
     <div class="row h-25 p-5">
       <div class="col-sm-6 mt-0 mb-5 ms-3">
-        <h1 class="fs-5">Modern Abaya Collection</h1>
+        <h1 id="mainhead" class="fs-5">Modern Abaya Collection</h1>
         <h2 class="fs-1">Arabian Pardha</h2>
         <hr style="height:4px;width:20%;color:#b60d1e;background-color:#b60d1e">
       </div>
@@ -239,15 +244,7 @@
   </div>
 </div>
 </footer>
-
-
-
-
-
-
-
-
-
+    <script src="script.js"></script>  
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
